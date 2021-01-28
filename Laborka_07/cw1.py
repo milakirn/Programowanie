@@ -1,0 +1,10 @@
+kartezh = ('uga', 'buga', 'ugabuga', 4, 6, 7)
+print(len(kartezh))
+print(id(kartezh))
+kartezh = ('uga', 'buga', 'ugabuga', 4, 6, 7, 8, 9)
+print(len(kartezh))
+print(id(kartezh))
+
+lista = list(kartezh)
+print(lista)
+print(id(lista))
