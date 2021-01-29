@@ -39,11 +39,10 @@ def Rank(na_z, rodzaj, temperatura):
         elif rodzaj.upper() == "F":
             return (temperatura + 459.67)
 
-#if __name__ == "__main__":
+if __name__ == "__main__":
     cels = int(input("Podaj temperature w Celsjuszach: "))
     print(Fahr_Cels(cels))
 
-if __name__ == "__main__":
     pytanie = input("Czy chcesz zobaczyć przeliczenie Rank? ")
     if pytanie.upper() == "TAK":
         pyt2 = input("Chcesz przeliczyć na Rankine czy z Rank? (na, z) ").lower()
