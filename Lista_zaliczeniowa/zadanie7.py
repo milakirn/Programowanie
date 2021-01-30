@@ -64,7 +64,7 @@ def data(d, m, r):
     dni = ["Poniedziałek", "Wtorek", "Środa", "Czwartek", "Piątek", "Sobota", "Niedziela"]
     dzienn = datetime.date(r, m, d)
     dzienn_tyg = dzienn.weekday()
-    dzienn_tyg_str = dni[dzienn_tyg]
+    dzienn_tyg_str = dni[dzienn_tyg]    #https://pythontic.com/datetime/date/weekday
     return (f"Dzień tygodnia dla {d}.{m}.{r} to {dzienn_tyg_str}")
 
 if __name__ == "__main__":
