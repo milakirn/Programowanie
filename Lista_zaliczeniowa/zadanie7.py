@@ -65,7 +65,7 @@ def data(d, m, r):
     dzienn = datetime.date(r, m, d)
     dzienn_tyg = dzienn.weekday()
     dzienn_tyg_str = dni[dzienn_tyg]
-    print(f"Dzień tygodnia: {dzienn_tyg_str}")
+    return (f"Dzień tygodnia dla {d}.{m}.{r} to {dzienn_tyg_str}")
 
 if __name__ == "__main__":
     dz = int(input("Podaj dzień: "))
