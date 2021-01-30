@@ -8,7 +8,7 @@ def czy_przestepny(r):
 
 def dzien_miesiac(r):
     luty = 28
-    if czy_przestepny(r):
+    if czy_przestepny(r) == True:
         luty = 29
     miesiace = [31, luty, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     return miesiace
