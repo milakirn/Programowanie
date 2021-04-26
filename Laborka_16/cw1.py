@@ -97,4 +97,4 @@ class YellowBook:
                 print("Brak takiego wyboru.")
 
 
-YellowBook.menu()
+YellowBook.menu(YellowBook)
